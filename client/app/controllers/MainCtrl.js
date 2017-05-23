@@ -1,9 +1,9 @@
 class MainCtrl {
-    constructor(){
-
+    constructor($state){
+        this.$state = $state;
     }
 }
 
-MainCtrl.$inject = [];
+MainCtrl.$inject = ['$state'];
 
 export {MainCtrl};
